@@ -6,18 +6,34 @@ Im Rahmen dieses Projektes wollen wir eine die Wählscheibe eines W48 Telefons a
 
 ## Prozesse
 
-### Anbinden des N38 Nummernschalters
+### Aufbau des N38 Nummernschalters
 ![grafik](https://user-images.githubusercontent.com/69843539/222415091-131c2bbd-e8e3-494b-afca-9eecb5d05f55.png)
 
 Der N38 Nummernschalter verwendet eine elektronische Schaltung, um die jeweils ausgewählte Zahl darzustellen. Das Nockenrad (rot, im Hintergrund, mit messingfarbenem Zähnen) ist starr mit der Wählscheibe auf der Frontseite verbunden.
+
+Der orangene Pfeil zeigt hier auf das Rad, welches den elektrischen Impuls steuert.
 
 *Beispielhaft hier gezeigt das Herstellen des Kontaktes:*
 
 ![grafik](https://user-images.githubusercontent.com/69843539/222415148-465c6221-bb20-4c55-9a29-936e778b8555.png)
 
-Der orangene Pfeil zeigt hier auf das 
+### Auslesen der gewählten Nummer
 
+Sobald eine Nummer ausgewählt wird, erzeugt der Nummernschalter eine bestimmte Anzahl elektrischer Impulse, die die Nummer darstellen `(Nummer n + 2 = Anzahl Impulse)`. Diese müssen wir auslesen und an ein Steuerelement weiterleiten.
 
+#### Spannungssensor
+
+Wir wollen die Wahlscheibe auslesen, um die ausgewählte Nummer beispielhaft in einer Datei auf einem anderen Gerät (Schul-PC) zu erfassen. 
+
+## Zielsetzung
+
+- [ ]	Konzeption der Hardwareelemente
+- [ ]	Erfassen der nötigen Hardwarekomponenten für
+- [ ]	Sensor für Wählscheibenausleser
+- [ ]	Iot-Controller (Raspberry Pi 3)
+- [ ]	Kabel (Strom, Patchkabel, Arduino)
+- [ ]	Netzteil
+- [ ]	Erstellen einer "Proof of Concept"-Modellierung der Softwareelemente in Packet Tracer
 
 # Quellen
 [Nummernschalter N38](https://elektronikbasteln.pl7.de/nummernschalter-n38)
