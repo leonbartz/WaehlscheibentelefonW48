@@ -25,6 +25,8 @@ Sobald eine Nummer ausgewählt wird, erzeugt der Nummernschalter eine bestimmte 
 
 Wir wollen die Wahlscheibe auslesen, um die ausgewählte Nummer beispielhaft in einer Datei auf einem anderen Gerät (Schul-PC) zu erfassen. 
 
+https://www.raspberry-pi-geek.de/ausgaben/rpg/2019/02/strom-und-spannungssensor-ina3221/
+
 ## Zielsetzung
 
 - [ ]	Konzeption der Hardwareelemente
