@@ -31,7 +31,9 @@ Wir wollen die Wahlscheibe auslesen, um die ausgewählte Nummer beispielhaft in 
 
 >Der Shunt sollte möglichst geringe Toleranzwerte aufweisen, um die Messung nicht zu verfälschen. Bei der Strommessung fällt am Shunt auf jeden Fall eine Spannung (U=RxI) ab, die dann nicht mehr für den Verbraucher bereitsteht. Der Spannungsabfall am Shunt erzeugt eine an der Energiequelle gespeiste Verlustleistung (P=UxI), die immer Abwärme bedeutet. Bei Einsatz eines Shunts gilt es daher, immer die maximale Leistung des Bauteils zu beachten, sonst brennt es einfach ab.
 
+#### Raspberry Pi 3 GPIO 40 Pins
 
+https://tutorials-raspberrypi.de/raspberry-pi-gpio-erklaerung-beginner-programmierung-lernen/
 
 https://www.raspberry-pi-geek.de/ausgaben/rpg/2019/02/strom-und-spannungssensor-ina3221/
 
