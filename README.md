@@ -25,17 +25,17 @@ Sobald eine Nummer ausgewählt wird, erzeugt der Nummernschalter eine bestimmte 
 
 Wir wollen die Wahlscheibe auslesen, um die ausgewählte Nummer beispielhaft in einer Datei auf einem anderen Gerät (Schul-PC) zu erfassen.
 
->**Shunt**
+##### Shunt
 
 >Als Shunt bezeichnet man einen niederohmigen Messwiderstand, den man in einen Stromkreis einbaut, um indirekt den Strom zu messen. Dazu misst man die Spannung, die am Widerstand abfällt, und errechnet daraus den Strom. Mehrere Umstände erzwingen diesen Umweg: A/D-Wandler können keine Stromwerte messen, da sie sich dabei in den Stromkreis einklinken müssten. Hohe Ströme verursachen am Shunt eine entsprechende Verlustleistung, weswegen man ihn in der Regel vom eigentlichen Kreislauf zum Messen trennt.
 
 >Der Shunt sollte möglichst geringe Toleranzwerte aufweisen, um die Messung nicht zu verfälschen. Bei der Strommessung fällt am Shunt auf jeden Fall eine Spannung (U=RxI) ab, die dann nicht mehr für den Verbraucher bereitsteht. Der Spannungsabfall am Shunt erzeugt eine an der Energiequelle gespeiste Verlustleistung (P=UxI), die immer Abwärme bedeutet. Bei Einsatz eines Shunts gilt es daher, immer die maximale Leistung des Bauteils zu beachten, sonst brennt es einfach ab.
 
+https://www.raspberry-pi-geek.de/ausgaben/rpg/2019/02/strom-und-spannungssensor-ina3221/
+
 #### Raspberry Pi 3 GPIO 40 Pins
 
 https://tutorials-raspberrypi.de/raspberry-pi-gpio-erklaerung-beginner-programmierung-lernen/
-
-https://www.raspberry-pi-geek.de/ausgaben/rpg/2019/02/strom-und-spannungssensor-ina3221/
 
 ## Zielsetzung
 
