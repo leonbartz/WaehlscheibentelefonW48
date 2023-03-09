@@ -2,7 +2,7 @@
 
 ## Beschreibung
 
-Im Rahmen dieses Projektes wollen wir eine die Wählscheibe eines W48 Telefons auslesbar machen, indem wir
+Im Rahmen dieses Projektes wollen wir eine die Wählscheibe eines W48 Telefons auslesbar machen, indem wir das Nummernelement per Sensor auslesen und an ein externes Ziel versenden.
 
 ## Prozesse
 
